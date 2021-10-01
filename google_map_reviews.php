@@ -1,5 +1,5 @@
 /*
-Get Google-Reviews with PHP cURL & without API Key
+Get Google-Reviews with PHP (7.4) cURL & without API Key
 =====================================================
 $options = array(
     'cid' 		=> '2498492881783103593', 	// Customer Identification (CID)
