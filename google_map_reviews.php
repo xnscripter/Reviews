@@ -50,7 +50,6 @@ function getReviews($o) {
 		$r = array(
 			'company' => $m[6][11],
 			'address' => $m[6][39],
-			'logotype' => $m[6][157],
 			'reviews' => $r
 		);
 	}
