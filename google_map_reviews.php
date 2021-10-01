@@ -2,10 +2,10 @@
 Get Google-Reviews with PHP cURL & without API Key
 =====================================================
 $options = array(
-    'cid' 		=> '2498492881783103593', // Customer Identification (CID)
-    'lang' 		=> 'en',                  // give you language for auto translate reviews
-    'min_rating'	=> 3,                 // (0-4) only show reviews with more than x stars
-    'sort'			=> true                 // true = sort by rating (best first)
+    'cid' 		=> '2498492881783103593', 	// Customer Identification (CID)
+    'lang' 		=> 'en',                  	// give you language for auto translate reviews
+    'min_rating'	=> 3,                 		// (0-4) only show reviews with more than x stars
+    'sort'		=> true                 	// true = sort by rating (best first)
 );
 =====================================================
 How to find the needed CID No:
@@ -63,7 +63,7 @@ print_r(
       'cid' 		=> '4676976056870247934',
       'lang' 		=> 'en',
       'min_rating'	=> 3,
-      'sort'			=> true
+      'sort'		=> true
     )
   )
 );
